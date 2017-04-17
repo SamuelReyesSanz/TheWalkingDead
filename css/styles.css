@@ -1,0 +1,223 @@
+/* GENERAL */
+
+@import url('https://fonts.googleapis.com/css?family=Slabo+27px');
+
+@font-face {
+  font-family: "h1";
+  src: url('Dead Kansas.eot'),
+ 	url('Dead Kansas.woff2') format('woff2'),
+ 	url('Dead Kansas.eot?#iefix') format('embedded-opentype'),
+ 	url('Dead Kansas.woff') format('woff'),
+ 	url('Dead Kansas.ttf') format('truetype'),
+	url('Dead Kansas.svg#Dead Kansas') format('svg');
+}
+
+*
+{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	box-sizing: border-box;
+	font-size: 16px;
+}
+
+a:link, a:visited, a:active, a:hover, a:hover, a:focus
+{
+	text-decoration: none;
+}
+
+body{
+	background-color: rgb(35, 35, 35)
+}
+
+.contenedor
+{
+	position: relative;
+	margin: auto;
+	width: 100%;
+	height: auto;
+	clear: both;
+}
+
+.filas
+{
+	position: relative;
+	margin: auto;
+	width: 100%;
+	height: auto;
+	clear: both;
+}
+
+h2{
+	font-family: 'Slabo 27px', serif;
+}
+
+p{
+	font-family: 'Slabo 27px', serif;
+}
+
+h1{
+	font-family: "h1";
+	font-size: 64px;
+	color: white;
+}
+
+video{
+	position: fixed;
+	min-width: 100%;
+	min-height: 100%;
+	left: 50%;
+	transform: translateX(-50%);
+	z-index: -2;
+}
+
+#video-title{
+	position: absolute;
+	margin: 4em 2em;
+}
+
+/*=========== 
+FIN GENERAL 
+============*/
+
+/*========== 
+DESKTOP */
+
+@media (min-width:1200px){
+
+header{
+	position: fixed;
+	background-color: rgb(18, 18, 18);
+	height: 200px;
+}
+
+#logo1{
+	
+	height: 100px;
+	background: url(../img/logo.png) no-repeat;
+}
+
+#logo2{
+	
+	height: 100px;
+	background: url(../img/amc.png) no-repeat;
+}
+
+.espacio{
+	height: 100px;
+}
+
+.actores{
+	width: 23%;
+	background-size: contain;
+	height: 300px;
+	margin: 1%;
+	border-radius: 5px;
+}
+
+.info
+{
+	position: relative;
+	width: 100%;
+	height: 300px;
+	background-color: rgba(200, 187, 107, 0.8);
+	opacity: 0;
+	transition: opacity 2s;
+	border-radius: 5px;
+}
+
+.actores:hover .info{
+	opacity: 1;
+	border-radius: 5px;
+}
+
+h2
+{
+	color: white;
+	position: absolute;
+	text-align: center;
+	font-size: 2em;
+	top: 0;
+	left: 0;
+	right: 0;
+	transition-duration: 2s
+}
+
+.actores:hover h2
+{
+	top: 25px;
+}
+
+p
+{
+	color: white;
+	font-size:22px ;
+	position: absolute;
+	text-align: center;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	transition-duration: 2s;
+}
+
+.actores:hover p
+{
+	bottom: 40px;
+}
+
+#rick{
+	background-image: url(../img/rick.jpg);
+}
+
+#negan{
+	background-image: url(../img/negan.jpg);
+}
+
+#daryl{
+	background-image: url(../img/daryl.jpg);
+}
+
+#carl{
+	background-image: url(../img/carl.jpg);
+}
+
+
+}
+
+/* FIN DESKTOP 
+============*/
+
+/*============ 
+LAPTOP */
+
+@media (max-width:1199px) and (min-width:992px) {
+ 
+
+}
+
+/* FIN LAPTOP 
+============*/
+
+/*============ 
+TABLET */
+
+@media (max-width:991px) and (min-width:768px) {
+ 
+
+}
+
+/* FIN TABLET 
+============*/
+
+/*============ 
+PHONES */
+
+@media (max-width:767px){
+ 
+
+
+}
+
+/* FIN PHONES 
+============*/
