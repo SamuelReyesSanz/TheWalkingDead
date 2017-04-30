@@ -10,13 +10,9 @@
 	<link rel="stylesheet" href="css/gridsystem.css">
 
 	<link rel="stylesheet" href="css/styles.css">
-
-	<link rel="stylesheet" href="fonts.css">
-
-
 </head>
 <body>
-	<div class="contenedor" id="home">
+	<div class="contenedor">
 		
 		<div class="filas">
 			<header class="desktop-12 laptop-12 tablet-12 phones-12">
@@ -25,94 +21,48 @@
 				<div class="desktop-1 espacio"></div>
 				<div class="desktop-3" id="logo1"></div>
 				<div class="desktop-1 espacio"></div>
+				<div class="desktop-4" style="height: 100px;"></div>
 			</header>
-		<div class="social">
-			<ul>
-				<li><a href="#home" class="icon-home3"></a></li>
-				<li><a href="#video-link" class="icon-play"></a></li>
-				<li><a href="#actores-link" class="icon-image"></a></li>
-			</ul>
-		</div>
 		<div class="contenedor">
-			<h1 id="video-title" class="desktop-5">21 / Octubre / 2017</h1>
-			<video src="img/1.mp4" autoplay loop muted poster="loading.gif" class="desktop-12" id="video-link"></video>
+		<script language="JavaScript">
+			TargetDate = "10/24/2017 12:00 PM UTC+0100";
+			BackColor = "";
+			ForeColor = "white";
+			CountActive = true;
+			CountStepper = -1;
+			LeadingZero = true;
+			DisplayFormat = "%%D%% Días, %%H%% Horas, %%M%% Minutos, %%S%% Segundos.";
+			FinishMessage = "Ha terminado la cuenta atrás";
+	</script>
+	<script language="JavaScript" src="http://scripts.hashemian.com/js/countdown.js"></script>
+			<h1 id="video-title" class="desktop-5">24 / Octubre / 2017</h1>
+			<video src="img/1.mp4" autoplay loop muted poster="loading.gif" class="desktop-12"></video>
 		</div>
 	<div class="contenedor">
-		<div class="desktop-12">
-			<h4 id="actores-link">ACTORES</h4>
-		</div>
 		<div class="desktop-3 laptop-3 tablet-6 phones-12 actores" id="rick">
 			<div class="info">
 				<h2>RICK</h2>
-				<h3>Andrew Lincoln</h3>
+				<p>Andrew Lincoln</p>
 			</div>
 		</div>
 		<div class="desktop-3 laptop-3 tablet-6 phones-12 actores" id="negan">
 			<div class="info">
 				<h2>NEGAN</h2>
-				<h3>Jeffrey Dean Morgan</h3>
+				<p>Jeffrey Dean Morgan</p>
 			</div>
 		</div>
 		<div class="desktop-3 laptop-3 tablet-6 phones-12 actores" id="daryl">
 			<div class="info">
 				<h2>DARYL</h2>
-				<h3>Norman Reedus</h3>
+				<p>Norman Reedus</p>
 			</div>
 		</div>
 		<div class="desktop-3 laptop-3 tablet-6 phones-12 actores" id="carl">
 			<div class="info">
 				<h2>CARL</h2>
-				<h3>Chandler Riggs</h3>
+				<p>Chandler Riggs</p>
 			</div>
 		</div>
-		<div class="desktop-3 laptop-3 tablet-6 phones-12 actores" id="maggie">
-			<div class="info">
-				<h2>MAGGIE</h2>
-				<h3>Lauren Cohan</h3>
-			</div>
-		</div>		
-		<div class="desktop-3 laptop-3 tablet-6 phones-12 actores" id="carol">
-			<div class="info">
-				<h2>CAROL</h2>
-				<h3>Melissa McBride</h3>
-			</div>
-		</div>
-		<div class="desktop-3 laptop-3 tablet-6 phones-12 actores" id="morgan">
-			<div class="info">
-				<h2>MORGAN</h2>
-				<h3>Lennie James</h3>
-			</div>
-		</div>
-		<div class="desktop-3 laptop-3 tablet-6 phones-12 actores" id="tara">
-			<div class="info">
-				<h2>TARA</h2>
-				<h3>Alanna Masterson</h3>
-			</div>
-		</div>
-		<div class="desktop-3 laptop-3 tablet-6 phones-12 actores" id="eugene">
-			<div class="info">
-				<h2>EUGENE</h2>
-				<h3>Josh McDermitt</h3>
-			</div>
-		</div>
-		<div class="desktop-3 laptop-3 tablet-6 phones-12 actores" id="gabriel">
-			<div class="info">
-				<h2>GABRIEL</h2>
-				<h3>Seth Gilliam</h3>
-			</div>
-		</div>
-		<div class="desktop-3 laptop-3 tablet-6 phones-12 actores" id="maggie">
-			<div class="info">
-				<h2>JESUS</h2>
-				<h3>Lauren Cohan</h3>
-			</div>
-		</div>		
-		<div class="desktop-3 laptop-3 tablet-6 phones-12 actores" id="rosita">
-			<div class="info">
-				<h2>ROSITA</h2>
-				<h3>Christian Serratos</h3>
-			</div>
-		</div>	
 	</div>
 </body>
 </html>

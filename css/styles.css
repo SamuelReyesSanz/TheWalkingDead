@@ -4,12 +4,12 @@
 
 @font-face {
   font-family: "h1";
-  src: url('../fonts/amc/Dead Kansas.eot'),
- 	url('../fonts/amc/Dead Kansas.woff2') format('woff2'),
- 	url('../fonts/amc/Dead Kansas.eot?#iefix') format('embedded-opentype'),
- 	url('../fonts/amc/Dead Kansas.woff') format('woff'),
- 	url('../fonts/amc/Dead Kansas.ttf') format('truetype'),
-	url('../fonts/amc/Dead Kansas.svg#Dead Kansas') format('svg');
+  src: url('Dead Kansas.eot'),
+ 	url('Dead Kansas.woff2') format('woff2'),
+ 	url('Dead Kansas.eot?#iefix') format('embedded-opentype'),
+ 	url('Dead Kansas.woff') format('woff'),
+ 	url('Dead Kansas.ttf') format('truetype'),
+	url('Dead Kansas.svg#Dead Kansas') format('svg');
 }
 
 *
@@ -25,7 +25,6 @@
 a:link, a:visited, a:active, a:hover, a:hover, a:focus
 {
 	text-decoration: none;
-	list-style: none;
 }
 
 body{
@@ -50,37 +49,18 @@ body{
 	clear: both;
 }
 
-.sub-nav{
-	position: relative;
-	font-size: 25px;
-	color: white;
-	margin: 35px auto;
-	font-family: "h1";
-	text-align: center;
-	cursor: pointer;
-}
-
 h2{
 	font-family: 'Slabo 27px', serif;
 }
 
-h3{
+p{
 	font-family: 'Slabo 27px', serif;
 }
 
 h1{
 	font-family: "h1";
-	font-size: 50px;
+	font-size: 64px;
 	color: white;
-}
-
-h4{
-	font-family: "h1";
-	font-size: 45px;
-	color: white;
-	position: relative;
-	margin: 25px 0px 8px 0px;
-	text-align: center;
 }
 
 video{
@@ -92,94 +72,10 @@ video{
 	z-index: -2;
 }
 
-.social{
-	position: fixed;
-	left: 0;
-	top: 35%;
-	z-index: 1000;
-}
-
-.social ul{
-	list-style: none;
-	cursor: pointer;
-}
-
-.social ul li a{
-	display: inline-block;
-	color: white;
-	background:  rgb(200, 187, 107);
-	padding: 10px 15px;
-	margin: 1px;
-	text-decoration: none;
-	transition: all 500ms ease;
-}
-
-.social ul li .icon-home3 {background:;}
-.social ul li .icon-play {background:;}
-.social ul li .icon-image {background:;}
-
-.social ul li a:hover{
-	padding: 15px 30px;
-	background: black;
-}
-
-#rick{
-	background-image: url(../img/rick.jpg);
-}
-
-#negan{
-	background-image: url(../img/negan.jpg);
-}
-
-#daryl{
-	background-image: url(../img/daryl.jpg);
-}
-
-#carl{
-	background-image: url(../img/carl.jpg);
-}
-
-#maggie{
-	background-image: url(../img/maggie.jpg);
-}
-
-#carol{
-	background-image: url(../img/carol.jpg);
-}
-
-#michonne{
-	background-image: url(../img/michonne.jpg);
-}
-
-#tara{
-	background-image: url(../img/tara.jpg);
-}
-
-#rosita{
-	background-image: url(../img/rosita.jpg);
-}
-
-#morgan{
-	background-image: url(../img/morgan.jpg);
-}
-
-#gabriel{
-	background-image: url(../img/gabriel.jpg);
-}
-
-#dwight{
-	background-image: url(../img/dwigth.jpg);
-}
-
-#eugene{
-	background-image: url(../img/eugene.jpg);
-}
-
 #video-title{
 	position: absolute;
 	margin: 4em 2em;
 }
-
 
 /*=========== 
 FIN GENERAL 
@@ -215,8 +111,8 @@ header{
 .actores{
 	width: 23%;
 	background-size: contain;
-	height: 280px;
-	margin: 0.4% 1%;
+	height: 300px;
+	margin: 1%;
 	border-radius: 5px;
 }
 
@@ -224,10 +120,10 @@ header{
 {
 	position: relative;
 	width: 100%;
-	height: 280px;
+	height: 300px;
 	background-color: rgba(200, 187, 107, 0.8);
 	opacity: 0;
-	transition: opacity 1s;
+	transition: opacity 2s;
 	border-radius: 5px;
 }
 
@@ -253,7 +149,7 @@ h2
 	top: 25px;
 }
 
-h3
+p
 {
 	color: white;
 	font-size:22px ;
@@ -265,9 +161,25 @@ h3
 	transition-duration: 2s;
 }
 
-.actores:hover h3
+.actores:hover p
 {
 	bottom: 40px;
+}
+
+#rick{
+	background-image: url(../img/rick.jpg);
+}
+
+#negan{
+	background-image: url(../img/negan.jpg);
+}
+
+#daryl{
+	background-image: url(../img/daryl.jpg);
+}
+
+#carl{
+	background-image: url(../img/carl.jpg);
 }
 
 
